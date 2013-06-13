@@ -236,7 +236,7 @@ File.open('Makefile', 'w') do |file|
     file.puts "-DENABLE_QTSQL_SMOKE=on \\"
     file.puts "-DENABLE_QTXML_SMOKE=on \\"
     file.puts "-DENABLE_QTXMLPATTERNS_SMOKE=on \\"
-    file.puts "-DENABLE_QTOPENGL_SMOKE=on \\"
+    file.puts "-DENABLE_QTOPENGL_SMOKE=off \\"
     file.puts "-DENABLE_QTWEBKIT_SMOKE=on \\"
     file.puts "-DENABLE_QTSCRIPT_SMOKE=on \\"
     file.puts "-DENABLE_QTUITOOLS_SMOKE=on \\"
